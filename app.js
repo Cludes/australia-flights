@@ -9,10 +9,10 @@ const CONFIG = {
   ATTR: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a> | ADS-B: <a href="https://adsb.lol">adsb.lol</a>',
 };
 
-// Plane silhouette pointing north (up); rotated by track.
+// Clean top-down plane silhouette pointing north (up); rotated by track.
 const PLANE_SVG =
   '<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">' +
-  '<path d="M12 2c.7 0 1.3 1 1.3 2.6v4.8l7.7 4.6v1.9l-7.7-2.3v4.4l2 1.5v1.4L12 20l-3.3.9v-1.4l2-1.5v-4.4L3 15.9V14l7.7-4.6V4.6C10.7 3 11.3 2 12 2z"/>' +
+  '<path d="M22 16v-2l-8.5-5V3.5C13.5 2.67 12.83 2 12 2s-1.5.67-1.5 1.5V9L2 14v2l8.5-2.5V19L8 20.5V22l4-1 4 1v-1.5L13.5 19v-3.5L22 16z"/>' +
   '</svg>';
 
 function altColor(alt) {
